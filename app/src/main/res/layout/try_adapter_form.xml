@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/cda_design5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="370dp"
+            android:layout_height="240dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textoutingname"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textSize="24sp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:hint="Name"
+                    android:maxLines="@android:integer/config_longAnimTime"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="20dp"
+                    android:text="Applicant Number:"
+                    android:textAlignment="viewStart"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textoutingnumber"
+                    android:layout_width="200dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="viewStart"
+                    android:gravity="center"
+                    android:hint="Number"
+                    android:textSize="16sp"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:text="Outing Date:"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textoutinggoout"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="viewStart"
+                    android:gravity="center"
+                    android:hint="Go out date"
+                    android:textSize="16sp"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:text="Return Date:"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="40dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textoutingcomein"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="viewStart"
+                    android:gravity="center"
+                    android:hint="Come in date"
+                    android:textSize="16sp"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="20dp"
+                    android:text="Outing Destination:"
+                    android:textAlignment="viewStart"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textoutingdestination"
+                    android:layout_width="200dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="viewStart"
+                    android:gravity="center"
+                    android:hint="Destination"
+                    android:textSize="16sp"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textoutingstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:gravity="center"
+                    android:hint="Status"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="invisible">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="10dp"
+                    android:text="Outing Reason:"
+                    android:textAlignment="viewStart"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_gravity="center"
+                    tools:ignore="RtlCompat" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="10dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/textoutingreason"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="viewStart"
+                    android:gravity="center"
+                    android:hint="Number"
+                    android:textSize="16sp"
+                    tools:ignore="RtlCompat" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.975">
+
+                <TextView
+                    android:id="@+id/textoutingtimestamp"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:visibility="invisible"/>
+
+                <TextView
+                    android:id="@+id/textoutinguserId"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:visibility="invisible"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

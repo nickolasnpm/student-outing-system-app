@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXS Dormitory App/app/src/main/res/layout/admin_dashboard.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXS Dormitory App/app/src/main/res/layout/admin_login.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXS Dormitory App/app/src/main/res/layout/admin_register.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXS Dormitory App/app/src/main/res/layout/apply_outing.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXS Dormitory App/app/src/main/res/layout/check_application.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXS Dormitory App/app/src/main/res/layout/check_status.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXS Dormitory App/app/src/main/res/layout/layout_outingform.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXS Dormitory App/app/src/main/res/layout/status_approval.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXS Dormitory App/app/src/main/res/layout/status_details.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXS Dormitory App/app/src/main/res/layout/student_dashboard.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXS Dormitory App/app/src/main/res/layout/student_login.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXS Dormitory App/app/src/main/res/layout/student_register.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout-sw600dp/activity_forget.xml" value="0.181640625" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/activity_forget.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/activity_forgot.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/admin_dashboard.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/admin_login.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/admin_register.xml" value="0.264" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/apply_outing.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/check_application.xml" value="0.16" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/check_status.xml" value="0.16" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/dropdown_branch.xml" value="0.253125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/dropdown_gender.xml" value="0.253125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/layout_outingform.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/scan_kit.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/status_approval.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/status_details.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/student_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/student_login.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/student_register.xml" value="0.264" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/try_adapter_form.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/try_check_status.xml" value="0.16" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/try_dialog_layout.xml" value="0.253125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/layout/try_status_details.xml" value="0.253125" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/CENTEXSDormitoryApp/app/src/main/res/mipmap-anydpi-v26/logo_round.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/drawable/ic_launcher_background.xml" value="0.173" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/drawable/ic_password.xml" value="0.173" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/drawable/logo_background.xml" value="0.173" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/activity_forget.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/activity_forgot.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/admin_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/admin_login.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/admin_register.xml" value="0.264" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/apply_outing.xml" value="0.264" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/check_application.xml" value="0.240625" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/check_status.xml" value="0.2" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/dropdown_branch.xml" value="0.2" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/dropdown_course.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/dropdown_gender.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/dropdown_location.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/dropdown_race.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/dropdown_relation.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/dropdown_response.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/layout_outingform.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/status_approval.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/status_details.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/student_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/student_login.xml" value="0.2421875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/layout/student_register.xml" value="0.264" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.173" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/mipmap-anydpi-v26/logo.xml" value="0.173" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/NewMiniProject/app/src/main/res/mipmap-anydpi-v26/logo_round.xml" value="0.1125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1038835979930",
+    "firebase_url": "https://new-mini-project-e1eb2-default-rtdb.firebaseio.com",
+    "project_id": "new-mini-project-e1eb2",
+    "storage_bucket": "new-mini-project-e1eb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038835979930:android:6a99d3f1e38ca7a5dd3123",
+        "android_client_info": {
+          "package_name": "com.example.centexsdormitoryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038835979930-2jivu27tumuu9cedq70jo6h2b9vg1tne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfRtN1nGFEjWTMgl6JbZfuPcgwR50m9zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038835979930-2jivu27tumuu9cedq70jo6h2b9vg1tne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038835979930:android:51d359cecbbe7944dd3123",
+        "android_client_info": {
+          "package_name": "com.example.newminiproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038835979930-2jivu27tumuu9cedq70jo6h2b9vg1tne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfRtN1nGFEjWTMgl6JbZfuPcgwR50m9zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038835979930-2jivu27tumuu9cedq70jo6h2b9vg1tne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cda_design4"
+    tools:context=".StatusApproval">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cdalogo"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.30">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_person"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/applicantname"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            android:hint="Applicant Name"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            tools:ignore="Autofill,HardcodedText,RtlCompat,TextFields" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_baseline_local_phone_24"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/applicantnumber"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            android:hint="Applicant Number"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            tools:ignore="Autofill,HardcodedText,RtlCompat,TextFields" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.480">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_baseline_home_work_24"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/destination"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            android:hint="Destination"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            tools:ignore="Autofill,HardcodedText,RtlCompat,TextFields" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.570" >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_baseline_create_24"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/reason"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            android:hint="Reason"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            tools:ignore="Autofill,HardcodedText,RtlCompat,TextFields" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.660">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_baseline_calendar_month_24"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/dategoout"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:textAlignment="viewStart"
+            android:gravity="center"
+            android:hint="Outing Date"
+            android:textSize="18sp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            tools:ignore="Autofill,HardcodedText,RtlCompat,TextFields" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.750">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/ic_baseline_calendar_month_24"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/datecomein"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:textAlignment="viewStart"
+        android:gravity="center"
+        android:hint="Return Date"
+        android:textSize="18sp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        tools:ignore="Autofill,HardcodedText,RtlCompat,TextFields" />
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:hint="Select Response"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.850"
+        tools:ignore="HardcodedText">
+
+        <AutoCompleteTextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/updatestatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.950"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/backtodashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Dashboard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.950"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
